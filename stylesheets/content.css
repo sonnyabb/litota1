@@ -1,0 +1,525 @@
+body {
+    height: 203.96vw;
+    width: 100vw;
+    overflow-x: hidden;
+    display: block;
+}
+
+.poster {
+    background-color: #170029;
+    overflow-x: hidden;
+    height: 203.96vw;
+    position: relative;
+}
+
+.poster::-webkit-scrollbar { 
+    display: none; 
+}
+
+.cl1 img {
+    position: relative;
+    top: 2.40vw;
+    left: 15.31vw;
+    width: 25.21vw;
+    height: 10.47vw;
+}
+
+.fl1 img {
+    position: absolute;
+    top: 18.44vw;
+    left: 2.76vw;
+    width: 11.67vw;
+    height: 11.67vw;
+    animation-name: m0;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes m0 {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+.L img {
+    position: absolute;
+    top: 20.31vw;
+    left: 21.61vw;
+    width: 1.98vw;
+    height: 13.65vw;
+    animation-name: m1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes m1 {
+    from {
+    top: 20.31vw;
+    }
+    to {
+    top: 17.71vw;
+    }
+}
+
+.i img {
+    position: absolute;
+    top: 26.35vw;
+    left: 32.29vw;
+    width: 1.77vw;
+    height: 12.03vw;
+    animation-name: m2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes m2 {
+    from {
+    top: 26.35vw;
+    }
+    to {
+    top: 27.40vw;
+    }
+}
+
+.tb img {
+    position: absolute;
+    top: 21.72vw;
+    left: 42.24vw;
+    width: 5.36vw;
+    height: 12.03vw;
+    animation-name: m3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes m3 {
+    from {
+    top: 21.72vw;
+    }
+    to {
+    top: 20.16vw;
+    }
+}
+
+.o img {
+    position: absolute;
+    top: 17.19vw;
+    left: 51.88vw;
+    width: 8.80vw;
+    height: 8.80vw;
+    animation-name: m4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes m4 {
+    from {
+    top: 17.19vwpx;
+    }
+    to {
+    top: 18.23vw;
+    }
+}
+
+.tp img {
+    position: absolute;
+    top: 21.88vw;
+    left: 65.21vw;
+    width: 5.36vw;
+    height: 12.03vw;
+    animation-name: m5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes m5 {
+    from {
+    top: 21.88vw;
+    }
+    to {
+    top: 20.83vw;
+    }
+}
+
+.a img {
+    position: absolute;
+    top: 23.44vw;
+    left: 75vw;
+    width: 8.59vw;
+    height: 8.80vw;
+    animation-name: m6;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes m6 {
+    from {
+    top: 23.44vw;
+    }
+    to {
+    top: 24.48vw;
+    }
+}
+
+.fl2 img {
+    position: absolute;
+    top: 1.56vw;
+    left: 70.31vw;
+    width: 16.46vw;
+    height: 16.46vw;
+    animation-name: m0;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+.cl2 img {
+    position: relative;
+    left: 82.29vw;
+    top: 26.04vw;
+    width: 13.02vw;
+    height: 5.36vw;
+}
+
+.rr1 img {
+    position: relative;
+    top: 28.65vw;
+    left: 6.46vw;
+    width: 21.46vw;
+    height: 27.03vw;
+}
+
+.flor1 img {
+    position: absolute;
+    top: 38.13vw;
+    left: 36.77vw;
+    width: 16.46vw;
+    height: 16.46vw;
+    animation-name: m0;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+.bb img {
+    position: relative;
+    left: 67.71vw;
+    width: 48.28vw;
+    height: 22.92vw;
+}
+
+.bb img:hover {
+    animation-name: cv1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+}
+
+@keyframes cv1 {
+    0% {left: 67.71vw;}
+    100% {left: 55.42vw}
+}
+
+.str {
+    position: relative;
+    left: 61.46vw;
+    top: 5.21vw;
+    width: 32.29vw;
+    height: 5.21vw;
+    display: flex;
+    background-color: #FFBD00;
+    border-radius: 0.36vw;
+    animation: s1 5s linear infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+.str p {
+    color: #9E0059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.88vw;
+    font-weight: 600;
+    text-align: center;
+    text-overflow: clip;
+    overflow: hidden;
+    padding-top: 0.63vw;
+    padding-left: 1.04vw;
+}
+
+@keyframes s1 {
+    from {
+        background-color: #FFBD00;
+      }
+      to {
+        background-color: #FF5400;
+      }
+}
+
+.grs img {
+    position: relative;
+    bottom: 13.02vw;
+    left: 52.08vw;
+    width: 5.42vw;
+    height: 9.11vw;
+}
+
+.clouds img {
+    position: absolute;
+    top: 67.71vw;
+    left: -1.20vw;
+    width: 67.08vw;
+    height: 59.48vw;
+}
+
+.shar img {
+    position: absolute;
+    top: 84.53vw;
+    left: 4.58vw;
+    width: 22.08vw;
+    height: 34.38vw;
+    animation-name: s2;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes s2 {
+    0% {
+        top: 84.53vw;
+        left: 4.58vw;}
+    50% {
+        top: 104.32vw;
+        left: 18.23vw;
+    }
+    100% {
+        top: 85.57vw;
+        left: 30.73vw;
+    }
+}
+
+.flv img {
+    position: absolute;
+    top: 87.19vw;
+    left: 72.92vw;
+    width: 16.46vw;
+    height: 16.46vw;
+    animation-name: m0;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+
+.ram2 img {
+     position: relative;
+     top: 28.65vw;
+     left: 56.46vw;
+     width: 30.05vw;
+     height: 14.32vw;
+}
+
+.dol img {
+    position: absolute;
+    top: 130.21vw;
+    left: 71.20vw;
+    width: 23.07vw;
+    height: 23.07vw;
+    animation-name: m0;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.gr2 img {
+    position: relative;
+    top: 39.06vw;
+    left: 54.69vw;
+    width: 7.45vw;
+    height: 12.55vw;
+}
+
+.fl5 img {
+    position: relative;
+    top: 31.25vw;
+    left: -15.63vw;
+    width: 52.60vw;
+    height: 28.02vw;
+}
+
+.fl5 img:hover {
+    animation-name: cv2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+}
+
+@keyframes cv2 {
+    0% {left: -15.63vw;}
+    100% {left: -1vw}
+}
+
+.pfl img {
+    position: absolute;
+    top: 154.38vw;
+    left: 55.73vw;
+    width: 16.46vw;
+    height: 16.46vw;
+    animation-name: m0;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+.ors img {
+    position: absolute;
+    top: 169.11vw;
+    left: 37.97vw;
+    width: 11.67vw;
+    height: 11.67vw;
+    animation-name: m0;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+.flov1 img {
+    position: absolute;
+    left: 6.25vw;
+    top: 169.27vw;
+    width: 3.49vw;
+    height: 7.24vw;
+    animation: vn 3s ease infinite alternate;
+}
+
+.flov2 img {
+    position: absolute;
+    left: 13.02vw;
+    top: 169.27vw;
+    width: 3.49vw;
+    height: 7.24vw;
+    animation: vv 3s ease infinite alternate;
+}
+
+.flov3 img {
+    position: absolute;
+    left: 19.79vw;
+    top: 169.27vw;
+    width: 3.49vw;
+    height: 7.24vw;
+    animation: vn 3s ease infinite alternate;
+}
+
+.flov4 img {
+    position: absolute;
+    left: 26.56vw;
+    top: 169.27vw;
+    width: 3.49vw;
+    height: 7.24vw;
+    animation: vv 3s ease infinite alternate;
+}
+
+@keyframes vn {
+    from {top: 169.27vw;}
+    50% {top: 170.31vw;}
+    to {top: 168.23vw;}
+}
+
+@keyframes vv {
+    from {top: 169.27vw;}
+    50% {top: 168.23vw;}
+    to {top: 170.31vw;}
+}
+
+.grv img {
+    position: absolute;
+    left: 6.25vw;
+    top: 174.48vw;
+    width: 23.44vw;
+    height: 7.86vw;
+}
+
+.vclou img {
+    position: relative;
+    left: 55.73vw;
+    top: 44vw;
+    width: 16.46vw;
+    height: 6.82vw;
+}
+
+.ram3 img {
+    position: relative;
+    left: 69.31vw;
+    top: 15.63vw;
+    width: 36.41vw;
+    height: 28.23vw;
+}
+
+.foot {
+    background-color: #390099;
+    width: 100vw;
+    height: 12.92vw;
+    position: absolute;
+    top: 191.04vw;
+}
+
+.foot h3 {
+    color: #FF0054;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.34vw;
+    font-weight: 700;
+    position: absolute;
+    left: 3.33vw;
+    bottom: 6.25vw;
+}
+
+.foot p {
+    color: #FF0054;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.34vw;
+    font-weight: 700;
+    position: absolute;
+    left: 3.33vw;
+    bottom: 3.85vw;
+}
+
+.foot img {
+    position: absolute;
+    bottom: 2.45vw;
+    left: 75.63vw;
+    width: 18.85vw;
+    height: 6.93vw;
+}
