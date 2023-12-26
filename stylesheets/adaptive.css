@@ -355,14 +355,14 @@
 
 @media only screen and (max-device-width: 414px) {
     body {
-        height: 900px;
+        height: 880px;
         width: 100vw;
         overflow-x: hidden;
         display: block;
     }
     
     .poster {
-        height: 227.29vw;
+        height: 212.56vw;
     }
     
     .poster::-webkit-scrollbar { 
